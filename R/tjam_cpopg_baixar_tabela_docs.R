@@ -1,3 +1,11 @@
+#' Baixar tabela docs
+#'
+#' @param processos processo
+#' @param diretorio diretorio
+#'
+#' @return html/json
+#' @export
+#'
 tjam_cpopg_baixar_tabela_docs <- function (processos = NULL, diretorio = ".")
 {
 
